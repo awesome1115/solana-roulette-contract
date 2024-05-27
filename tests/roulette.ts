@@ -3,7 +3,7 @@ import { Program } from "@coral-xyz/anchor";
 import { Roulette } from "../target/types/roulette";
 
 describe("roulette", () => {
-  // Configure the client to use the local cluster.
+  // Configure the client to use the local cluster
   anchor.setProvider(anchor.AnchorProvider.env());
 
   const program = anchor.workspace.Roulette as Program<Roulette>;
